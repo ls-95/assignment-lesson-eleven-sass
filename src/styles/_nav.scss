@@ -1,0 +1,37 @@
+@use "variables" as *;
+
+.navbar {
+  padding: 60px 0 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-items {
+    display: flex;
+    gap: 29px;
+  }
+
+  &-links {
+    list-style: none;
+  }
+
+  &-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: $font-size-medium;
+    color: $primary;
+  }
+
+  &-link:hover {
+    color: $secondary;
+  }
+
+  &-link:active {
+    position: relative;
+    top: 2px;
+  }
+
+  &-link:visited {
+    color: $secondary;
+  }
+}
