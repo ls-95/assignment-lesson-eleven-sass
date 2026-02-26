@@ -1,0 +1,17 @@
+@use "variables" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: $max-width;
+  margin: 0 auto;
+  color: $primary;
+}
+
+.main-text {
+  font-size: $font-size-normal;
+}
