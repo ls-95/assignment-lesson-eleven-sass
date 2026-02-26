@@ -5,3 +5,58 @@
 @use "hero";
 @use "pages/project";
 @use "pages/contact";
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+  gap: 20px;
+
+  &-one {
+    grid-area: 1 / 1 / 8 / 4;
+  }
+
+  &-two {
+    grid-area: 1 / 4 / 7 / 7;
+  }
+
+  &-three {
+    grid-area: 1 / 7 / 11 / 10;
+  }
+
+  &-four {
+    grid-area: 8 / 1 / 16 / 4;
+  }
+
+  &-five {
+    grid-area: 7 / 4 / 14 / 7;
+  }
+
+  &-six {
+    grid-area: 11 / 7 / 18 / 10;
+  }
+
+  &-seven {
+    grid-area: 16 / 1 / 24 / 4;
+  }
+
+  &-eight {
+    grid-area: 14 / 4 / 23 / 7;
+  }
+
+  &-nine {
+    grid-area: 18 / 7 / 27 / 10;
+  }
+
+  &-ten {
+    grid-area: 24 / 1 / 33 / 4;
+  }
+
+  &-eleven {
+    grid-area: 23 / 4 / 33 / 7;
+  }
+
+  &-twelve {
+    grid-area: 27 / 7 / 33 / 10;
+  }
+}
