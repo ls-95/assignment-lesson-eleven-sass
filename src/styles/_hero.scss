@@ -1,0 +1,11 @@
+@use "variables" as *;
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+
+  &-main-text {
+    max-width: 635px;
+    width: 100%;
+  }
+}
