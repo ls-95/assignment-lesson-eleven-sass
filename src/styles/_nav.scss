@@ -11,12 +11,7 @@
     gap: 29px;
   }
 
-  &-links {
-    list-style: none;
-  }
-
   &-link {
-    text-decoration: none;
     font-weight: bold;
     font-size: $font-size-medium;
     color: $primary;
