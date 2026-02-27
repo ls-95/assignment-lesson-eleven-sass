@@ -22,7 +22,6 @@
   }
 
   p span {
-    font-weight: $bold;
     font-size: $font-size-large;
   }
 
@@ -107,12 +106,11 @@
 .explore {
   display: flex;
   justify-content: space-between;
-  padding: 45px 0 50px 0;
+  padding: 45px 0 $spacing-large 0;
 
   &-text {
     max-width: $max-width-small;
     line-height: 38px;
-    font-weight: $bold;
     font-size: $header-secondary-size;
   }
 
@@ -121,17 +119,86 @@
   }
 
   &-links {
-    padding: 0 30px 0 30px;
+    padding: 0 30px;
   }
 
   &-link {
     display: block;
-    padding: 5px 0 5px 0;
+    padding: 5px 0;
     color: $primary;
     opacity: $opacity-light;
   }
 
   &-link:hover {
     color: $secondary;
+  }
+}
+
+.awards {
+  border-top: $border;
+  padding-bottom: $spacing-large;
+  margin: $spacing-large 0;
+
+  &-grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: $spacing-large 0;
+    border-bottom: $border;
+  }
+
+  &-header {
+    grid-area: 1 / 1 / 2 / 5;
+  }
+
+  &-title-one {
+    grid-area: 1 / 5 / 2 / 7;
+  }
+
+  &-items-one {
+    grid-area: 1 / 7 / 2 / 9;
+  }
+
+  &-year-one {
+    grid-area: 1 / 9 / 2 / 10;
+  }
+
+  &-title-two {
+    grid-area: 3 / 5 / 4 / 7;
+  }
+
+  &-items-two {
+    grid-area: 3 / 7 / 4 / 9;
+  }
+
+  &-year-two {
+    grid-area: 3 / 9 / 4 / 10;
+  }
+
+  &-second-grid {
+    padding-top: $spacing-large;
+  }
+
+  &-header {
+    font-size: $font-size-large;
+  }
+
+  &-title-one,
+  &-title-two {
+    font-size: $font-size-medium;
+  }
+
+  &-name {
+    padding-bottom: 12px;
+  }
+
+  &-description {
+    line-height: $small-line-height;
+    opacity: $opacity-light;
+  }
+
+  &-year-one,
+  &-year-two {
+    text-align: right;
   }
 }
