@@ -1,7 +1,7 @@
 @use "../variables" as *;
 
-.contact-hero {
-  margin-bottom: $spacing-medium;
+.projects-hero {
+  padding: $spacing-medium 0;
 
   &-title {
     margin-top: 0;
@@ -31,5 +31,20 @@
 
   &-project-title {
     opacity: $opacity-light;
+  }
+}
+.projects-main {
+  margin-top: $spacing-medium;
+
+  &-text {
+    line-height: $small-line-height;
+    opacity: $opacity-dark;
+    padding: $spacing-large 0;
+  }
+
+  &-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: $spacing-large;
   }
 }
