@@ -1,4 +1,4 @@
-@use "variables";
+@use "variables" as *;
 @use "base";
 @use "nav";
 @use "footer";
@@ -6,7 +6,50 @@
 @use "pages/project";
 @use "pages/contact";
 
+.home-hero {
+  margin-bottom: 72px;
+  align-items: flex-end;
+
+  h1 {
+    line-height: 60px;
+    font-size: $header-primary-size;
+    margin-bottom: 0;
+  }
+
+  p span,
+  h1 span {
+    color: $secondary;
+  }
+
+  p span {
+    font-weight: $bold;
+    font-size: $font-size-large;
+  }
+
+  &-small-text {
+    max-width: 300px;
+    width: 100%;
+    font-size: $font-size-normal;
+    opacity: 60%;
+  }
+
+  &-small-text p {
+    opacity: 60%;
+    font-style: italic;
+  }
+
+  &-small-text hr {
+    background-color: $primary;
+    border: none;
+    width: 30px;
+    height: 2px;
+    opacity: 50%;
+    margin-bottom: 9px;
+  }
+}
+
 .image-grid {
+  padding-top: 72px;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(32, 1fr);
