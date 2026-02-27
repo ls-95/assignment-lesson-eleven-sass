@@ -23,4 +23,18 @@ ul li {
 
 a {
   text-decoration: none;
+  color: $primary;
+}
+
+a:hover {
+  color: $secondary;
+}
+
+a:active {
+  position: relative;
+  top: 2px;
+}
+
+a:visited {
+  color: $secondary;
 }

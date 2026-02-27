@@ -14,19 +14,5 @@
   &-link {
     font-weight: bold;
     font-size: $font-size-medium;
-    color: $primary;
-  }
-
-  &-link:hover {
-    color: $secondary;
-  }
-
-  &-link:active {
-    position: relative;
-    top: 2px;
-  }
-
-  &-link:visited {
-    color: $secondary;
   }
 }

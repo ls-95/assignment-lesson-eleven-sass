@@ -17,29 +17,8 @@
     font-weight: $bold;
   }
 
-  &-link,
-  &-icon {
-    color: $primary;
-  }
-
   &-icons,
   &-icon {
     margin-left: 47px;
-  }
-
-  &-link:hover,
-  &-icon:hover {
-    color: $secondary;
-  }
-
-  &-link:active,
-  &-icon:active {
-    position: relative;
-    top: 2px;
-  }
-
-  &-link:visited,
-  &-icon:visited {
-    color: $secondary;
   }
 }
