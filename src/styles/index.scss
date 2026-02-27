@@ -135,7 +135,7 @@
 }
 
 .awards {
-  border-top: $border;
+  border-top: $border-thick;
   margin: $spacing-large 0;
 
   &-grid-container {
@@ -143,7 +143,7 @@
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: $spacing-large 0;
-    border-bottom: $border;
+    border-bottom: $border-thick;
   }
 
   &-header {

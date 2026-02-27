@@ -34,27 +34,36 @@
       </nav>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>Full set of great features to make your product fresh</h1>
-          <p>
+      <section class="contact-main">
+        <div class="contact-main-container">
+          <h1 class="contact-main-header">
+            Full set of great features to make your product fresh
+          </h1>
+          <p class="contact-main-text">
             Our favorite brands are our friends! We help them to achieve their
             goals, they help us to stay sharp.
           </p>
         </div>
-        <div>
+        <div class="contact-main-container">
           <form action="/">
-            <label for="name">Name</label>
-            <input type="text" />
-            <label for="email">Email</label>
-            <input type="email" />
-            <label for="message">Message</label>
-            <textarea name="message" id="message"></textarea>
-            <button type="submit">Submit</button>
+            <div class="contact-main-form-items">
+              <label for="name" class="bold">Name</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="contact-main-form-items">
+              <label for="email" class="bold">Email</label>
+              <input type="email" id="email" name="name" />
+            </div>
+            <div class="contact-main-form-items">
+              <label for="message" class="bold">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+
+            <button type="submit" class="bold">Submit</button>
           </form>
         </div>
       </section>
-      <section>
+      <section class="contact-map">
         <img src="../images/contact/Map.png" alt="" />
       </section>
     </main>

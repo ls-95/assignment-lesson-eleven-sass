@@ -1,0 +1,64 @@
+@use "../variables" as *;
+
+.contact-main {
+  display: flex;
+  justify-content: space-between;
+  margin: $spacing-large 0;
+
+  &-container {
+    max-width: 475px;
+    width: 100%;
+  }
+
+  &-header {
+    font-size: $header-primary-size;
+    line-height: $large-line-height;
+    margin-bottom: 22px;
+  }
+
+  &-text {
+    opacity: $opacity-dark;
+    line-height: $small-line-height;
+  }
+
+  form {
+    padding-top: 21px;
+  }
+
+  &-form-items {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: $spacing-medium;
+    border-bottom: $border-thin;
+  }
+
+  label {
+    opacity: $opacity-medium;
+  }
+
+  input,
+  textarea,
+  label {
+    padding: 16px 0;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    border: none;
+    height: 50px;
+  }
+
+  button {
+    margin-top: 8px;
+    height: 50px;
+    width: 125px;
+    border: none;
+    background-color: $secondary;
+    color: #fff;
+  }
+}
+
+.contact-map {
+  padding: $spacing-large 0;
+}
