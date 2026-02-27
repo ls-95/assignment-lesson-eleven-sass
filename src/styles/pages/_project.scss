@@ -1,5 +1,6 @@
 @use "../variables" as *;
 
+/*Hero section styles*/
 .projects-hero {
   padding: $spacing-medium 0;
 
@@ -33,6 +34,8 @@
     opacity: $opacity-light;
   }
 }
+
+/*Main styles*/
 .projects-main {
   margin-top: $spacing-medium;
 
