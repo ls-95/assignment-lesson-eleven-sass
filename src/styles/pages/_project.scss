@@ -1,0 +1,35 @@
+@use "../variables" as *;
+
+.contact-hero {
+  margin-bottom: $spacing-medium;
+
+  &-title {
+    margin-top: 0;
+    margin-bottom: $spacing-medium;
+    font-size: $header-primary-size;
+    line-height: $large-line-height;
+  }
+
+  &-text {
+    line-height: $small-line-height;
+    opacity: $opacity-dark;
+  }
+
+  &-project {
+    max-width: 335px;
+    width: 100%;
+  }
+
+  &-project-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 35px;
+    padding: 18px 0;
+    border-bottom: 1px solid #d8d8d8;
+    font-size: $font-size-medium;
+  }
+
+  &-project-title {
+    opacity: $opacity-light;
+  }
+}

@@ -42,7 +42,7 @@
     border: none;
     width: 30px;
     height: 2px;
-    opacity: 50%;
+    opacity: $opacity-light;
     margin-bottom: 9px;
   }
 }
@@ -126,7 +126,7 @@
     display: block;
     padding: 5px 0;
     color: $primary;
-    opacity: $opacity-light;
+    opacity: $opacity-medium;
   }
 
   &-link:hover {
@@ -194,7 +194,7 @@
 
   &-description {
     line-height: $small-line-height;
-    opacity: $opacity-light;
+    opacity: $opacity-medium;
   }
 
   &-year-one,
